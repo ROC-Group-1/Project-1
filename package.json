@@ -1,0 +1,21 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "A self building development environment for PXT Arcade",
+  "main": "dist/index.js",
+  "scripts": {
+    "install": "npm i typescript@4.4.3 -g",
+    "postinstall": "tsc -b bundler",
+    "prepack": "tsc",
+    "pack": "node bundler/dist/bundler.js"
+  },
+  "keywords": [],
+  "author": "SMJS",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.12"
+  },
+  "dependencies": {
+    "node-utils": "github:SMJSGaming/Node-Utils"
+  }
+}

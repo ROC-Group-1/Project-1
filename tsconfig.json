@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src/",
+    "outDir": "./dist/",
+    "module": "CommonJS",
+    "target": "ES6",
+    "lib": [ "ES6" ],
+    "strict": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "definitions/*.d.ts"
+  ]
+}
